@@ -6,6 +6,8 @@ import cv2
 import shutil
 
 app = Flask(__name__)
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
+app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 class_names= ['Early Blight','Late Blight','Septoria Leaf Spot','No Disease :)','Yellow Leaf Curl Virus']
 
@@ -26,21 +28,19 @@ def index():
 	return render_template("index.html")
 
 
-@app.route("/prediction", methods=["POST"])
+@app.route("/submit", methods=["POST"])
 def prediction():
+    img=request.files['img']
+    img_path = 'static/img.jpg'
+    img.save(img_path)
 
-	img = request.files['img']
-	img.save("img.jpg")
-	img.save("static/img.jpg")
+    image=cv2.imread(img_path)
+    image=cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+    image=cv2.resize(image, (256,256))
 
-	shutil.copyfile('img.jpg','static/img.jpg')
+    predicted_class, confidence = predict(model, image)
+    return render_template("index.html", data=predicted_class, conf=confidence, img_path=img_path)
 
-	image = cv2.imread("img.jpg")
-	image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-	image = cv2.resize(image, (256,256))
-	predicted_class, confidence = predict(model, image)
-
-	return render_template("prediction.html", data=predicted_class, conf=confidence)
 
 if __name__ == "__main__":
 	app.run(debug=True)
