@@ -47,12 +47,18 @@
 
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-5">Preditction</h2>
 
-                <form action="/prediction" method="POST" enctype="multipart/form-data">
+                <form action="/submit" method="POST" enctype="multipart/form-data">
                   <label for="formFile" class="form-label mt-2"><h6>Please upload the image for Tomato Leaf</h6></label>
                   <input class="form-control" type="file" id="formFile" name="img" accept="image/*">
                   <br />
                   <button type="submit" class="btn btn-primary mb-3" name="btn">Predict Now!</button>
                 </form>
+
+                {% if data %}
+                <img class='mb-2 img-thumbnail' src="{{ img_path }}" alt="Uploaded Image">
+                <h3>The given Tomato Plant is suffering from : <span style="color:red">{{data}}</span></h3>
+                <h3>Confidence : {{conf}}</h3>
+                {% endif %}
 
             </div>
         </section>
