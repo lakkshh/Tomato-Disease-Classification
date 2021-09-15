@@ -41,3 +41,6 @@ def prediction():
 	predicted_class, confidence = predict(model, image)
 
 	return render_template("prediction.html", data=predicted_class, conf=confidence)
+
+if __name__ == "__main__":
+	app.run(debug=True)
