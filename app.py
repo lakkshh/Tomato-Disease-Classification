@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import tensorflow as tf
 from tensorflow.keras import models, layers
 import numpy as np
-import cv2
+from cv2 import *
 import shutil
 
 app = Flask(__name__)
