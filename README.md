@@ -17,7 +17,7 @@ The dataset of images used in this project, containing tomato leaves of differen
 ![CNN Model](https://i.ibb.co/X595PQR/nn.png "CNN Model")
 
 ### Python Notebook
-The .ipynb notebook can be accessed [here](https://nbviewer.jupyter.org/github/lakkshh/Tomato-Disease-Classification/blob/main/training.ipynb)
+The .ipynb notebook can be accessed [here](https://nbviewer.jupyter.org/github/lakkshh/Tomato-Disease-Classification/blob/main/training.ipynb).
 
 ### Novelty
 There are many disease classification systems available for various crops like potato, cotton, etc. Even though India is the second-largest tomato-producing country globally and tomato is the most cultivated crop in India, I could not find a disease classification system for tomato leaves. The diseases can cause considerable yield losses, decrease in the quality and increase in the price of tomatoes.. Hence, I have built this project which will help in early disease detection and prevent the further spread of diseases.
