@@ -56,11 +56,10 @@ There are many disease classification systems available for various crops like p
 ### I/O Screenshots (Android App)
 - Home Page Layout
 <img src="https://i.ibb.co/FhJrPpN/1-Mobile-Layout-1.jpg" height="800">
-![Layout 1](https://i.ibb.co/FhJrPpN/1-Mobile-Layout-1.jpg "Layput 1")
-![Layout 2](https://i.ibb.co/sFcBLNH/2-Mobile-Layout-2.jpg "Layput 2")
+<img src="https://i.ibb.co/sFcBLNH/2-Mobile-Layout-2.jpg" height="800">
 
 - Upload Image
-![Upload Image](https://i.ibb.co/qn8Xqyg/3-Mobile-Upload-Image.jpg "Upload Image")
+<img src="https://i.ibb.co/qn8Xqyg/3-Mobile-Upload-Image.jpg" height="800">
 
 - Predictions
-![Prediction](https://i.ibb.co/FwJss4G/4-Mobile-Prediction.jpg "Prediction")
+<img src="https://i.ibb.co/FwJss4G/4-Mobile-Prediction.jpg" height="800">
