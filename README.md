@@ -22,6 +22,9 @@ The dataset of images used in this project, containing tomato leaves of differen
 ### CNN Model Architecture
 ![CNN Model](https://i.ibb.co/X595PQR/nn.png "CNN Model")
 
+### Methodology Flow Chart
+![Methodology](https://i.ibb.co/dM3ZPDx/Add-a-heading-1.png "Methodology")
+
 ### Python Notebook
 The .ipynb notebook can be accessed [here](https://nbviewer.jupyter.org/github/lakkshh/Tomato-Disease-Classification/blob/main/training.ipynb).
 
@@ -52,7 +55,7 @@ There are many disease classification systems available for various crops like p
 
 ### I/O Screenshots (Android App)
 - Home Page Layout
-<img src="https://i.ibb.co/FhJrPpN/1-Mobile-Layout-1.jpg" height="100">
+<img src="https://i.ibb.co/FhJrPpN/1-Mobile-Layout-1.jpg" height="800">
 ![Layout 1](https://i.ibb.co/FhJrPpN/1-Mobile-Layout-1.jpg "Layput 1")
 ![Layout 2](https://i.ibb.co/sFcBLNH/2-Mobile-Layout-2.jpg "Layput 2")
 
@@ -61,6 +64,3 @@ There are many disease classification systems available for various crops like p
 
 - Predictions
 ![Prediction](https://i.ibb.co/FwJss4G/4-Mobile-Prediction.jpg "Prediction")
-
-### Methodology Flow Chart
-![Methodology](https://i.ibb.co/dM3ZPDx/Add-a-heading-1.png "Methodology")
