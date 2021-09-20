@@ -32,12 +32,12 @@ The .ipynb notebook can be accessed [here](https://nbviewer.jupyter.org/github/l
 There are many disease classification systems available for various crops like potato, cotton, etc. Even though India is the second-largest tomato-producing country globally and tomato is the most cultivated crop in India, I could not find a disease classification system for tomato leaves. The diseases can cause considerable yield losses, decrease in the quality and increase in the price of tomatoes.. Hence, I have built this project which will help in early disease detection and prevent the further spread of diseases.
 
 - Built the CNN Model from scratch and Hyper-Parameter Tuning
-    - Built the CNN model from scratch using trial and error for the number of convolution layers and max-pool layers, train-test split ratio, filter size, epochs etc. thus, achieving a test accuracy of 97.17%.
+    - Built the CNN model from scratch using trial and error for the number of convolution layers and max-pool layers, train-test split ratio, filter size, epochs etc. thus, achieving a train accuracy of 97.50% and test accuracy of 97.17%.
 - Optimizations
     - Downloaded and added images to the existing dataset to make it more robust
     - Built a tensorflow input pipeline and created equal sized 32 batches to handle the large dataset and optimize performance
     - Used concepts of caching, shuffling and prefetching to optimize the tensorflow input pipeline performance while handling the large dataset
-    - Applied Data Augmentation to generate new training examples from existing training set using transformations like Flipping and Roation to prevent overfitting and increase robustibility
+    - Applied Data Augmentation to generate new training examples from existing training set using transformations like Flipping and Rotation to prevent overfitting and increase robustibility
 
 ### I/O Screenshots (Web App)
 - Home Page Layout
