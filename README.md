@@ -45,7 +45,7 @@ There are many disease classification systems available for various crops like p
 ![Layout 2](https://i.ibb.co/c3CJsHR/2-Home-Page-Layout-2.png "Layput 2")
 
 - Upload Image
-![Upload Image](https://i.ibb.co/sHPcddn/3-Upload-Image.png "Upload Image")
+![Upload Image](https://i.ibb.co/XYQ0hcc/68747470733a2f2f692e6962622e636f2f7348506364646e2f332d55706c6f61642d496d6167652e706e67.png "Upload Image")
 
 - Predictions
 ![Prediction 1](https://i.ibb.co/h92FZB8/4-Prediction-1.png "Prediction 1")
