@@ -16,7 +16,7 @@ The dataset of images used in this project, containing tomato leaves of differen
 ### Mobile Android Application
 [Click here](https://youtu.be/6HXnuD_sHyU) to watch the video.
 
-### Web Application Link
+### Web Application
 [Click here](https://tomato-disease-classify.herokuapp.com/) to go to the website.
 
 ### CNN Model Architecture
@@ -33,10 +33,10 @@ There are many disease classification systems available for various crops like p
 - Optimizations
     - Downloaded and added images to the existing dataset to make it more robust
     - Built a tensorflow input pipeline and created equal sized 32 batches to handle the large dataset and optimize performance
-    - Used concepts of caching, shuffling and prefetching to optimize the tensorflow input pipeline performace while handling the large dataset
-    - Applied Data Augmentation to generate new training examples from exisiting training set using transformations like Flipping and Roation to prevent overfitting and increase robustibility
+    - Used concepts of caching, shuffling and prefetching to optimize the tensorflow input pipeline performance while handling the large dataset
+    - Applied Data Augmentation to generate new training examples from existing training set using transformations like Flipping and Roation to prevent overfitting and increase robustibility
 
-### I/O Screenshots
+### I/O Screenshots (Web App)
 - Home Page Layout
 ![Layout 1](https://i.ibb.co/XzwxQkm/1-Home-Page-Layout-1.png "Layput 1")
 ![Layout 2](https://i.ibb.co/c3CJsHR/2-Home-Page-Layout-2.png "Layput 2")
@@ -50,6 +50,16 @@ There are many disease classification systems available for various crops like p
 ![Prediction 3](https://i.ibb.co/Pxd95SV/6-Prediction-3.png "Prediction 3")
 ![Prediction 4](https://i.ibb.co/ZBh87Xz/7-Prediction-4.png "Prediction 4")
 
+### I/O Screenshots (Android App)
+- Home Page Layout
+![Layout 1](https://i.ibb.co/FhJrPpN/1-Mobile-Layout-1.jpg "Layput 1")
+![Layout 2](https://i.ibb.co/sFcBLNH/2-Mobile-Layout-2.jpg "Layput 2")
+
+- Upload Image
+![Upload Image](https://i.ibb.co/qn8Xqyg/3-Mobile-Upload-Image.jpg "Upload Image")
+
+- Predictions
+![Prediction](https://i.ibb.co/FwJss4G/4-Mobile-Prediction.jpg "Prediction")
 
 ### Methodology Flow Chart
 ![Methodology](https://i.ibb.co/dM3ZPDx/Add-a-heading-1.png "Methodology")
