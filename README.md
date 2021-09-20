@@ -13,6 +13,12 @@ and a healthy tomato class.
 
 The dataset of images used in this project, containing tomato leaves of different shapes, sizes and diseases, can be viewed [here](https://www.kaggle.com/arjuntejaswi/plant-village). Apart from this, I have added more images from Google to each of the disease classes to make the model more efficient and robust. In the proposed CNN Architecture, there are six convolution layers with 32 filters in first layer and 64 filters in the remaining layers and six max-pool layers. The model took around 50K seconds (~12 hours) to train. The training accuracy is obtained to be 97.50% and testing accuracy is 97.17%.
 
+### Mobile Android Application
+[Click here](https://youtu.be/6HXnuD_sHyU) to watch the video.
+
+### Web Application Link
+[Click here](https://tomato-disease-classify.herokuapp.com/) to go to the website.
+
 ### CNN Model Architecture
 ![CNN Model](https://i.ibb.co/X595PQR/nn.png "CNN Model")
 
@@ -47,6 +53,3 @@ There are many disease classification systems available for various crops like p
 
 ### Methodology Flow Chart
 ![Methodology](https://i.ibb.co/dM3ZPDx/Add-a-heading-1.png "Methodology")
-
-### Mobile Android Application
-[Click here](https://youtu.be/6HXnuD_sHyU) to watch the video.
